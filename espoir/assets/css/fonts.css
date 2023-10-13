@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'yoon';
+	src: url('../fonts/YoonGothicPro740.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'yoonb';
+	src: url('../fonts/YoonGothicPro760.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Marian';
+	src: url('../fonts/Marianina\ FY\ Medium.woff2') format('woff2');
+}
+
+@font-face {font-family: 'Marian';
+	font-weight:bold;
+	src: url('../fonts/Marianina\ FY\ Bold.woff2') format('woff2');
+}
