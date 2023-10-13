@@ -1,0 +1,154 @@
+{
+    "items":[
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide01.jpg",
+            "brand":"듀이셀",
+            "name":"마스크팩 1+1",
+            "rate":"40%",
+            "cost_usd":"$24",
+            "price_usd":"$14.4",
+            "price_krw":"18,596원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide02.jpg",
+            "brand":"메디힐",
+            "name":"[리뉴얼] 티트리 에센셜 마스크 30매",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$21",
+            "price_krw":"27,119원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide03.jpg",
+            "brand":"듀이셀",
+            "name":"샐러디패드 1+1",
+            "rate":"40%",
+            "cost_usd":"$22",
+            "price_usd":"$13.2",
+            "price_krw":"17,046원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide04.jpg",
+            "brand":"듀이셀",
+            "name":"시카플크림",
+            "rate":"40%",
+            "cost_usd":"$15",
+            "price_usd":"$9",
+            "price_krw":"11,622원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide05.jpg",
+            "brand":"키엘",
+            "name":"울트라 훼이셜 크림125ml",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$67",
+            "price_krw":"86,523원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide06.jpg",
+            "brand":"에스티 로더",
+            "name":"Advanced Night Repair 어드밴스드 나이트 리페어 싱크로나이즈드 멀티-리커버리 콤플렉스",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$362",
+            "price_krw":"467,486원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide07.jpg",
+            "brand":"셀퓨전씨",
+            "name":"레이저 썬스크린 100 SPF50+/PA+++ 50ml Trio Set",
+            "rate":"40%",
+            "cost_usd":"$78",
+            "price_usd":"$46.8",
+            "price_krw":"60,437원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide08.jpg",
+            "brand":"김정문알로에",
+            "name":"큐어 워터 쿨링 선스틱 듀오",
+            "rate":"32%",
+            "cost_usd":"$23",
+            "price_usd":"$15.64",
+            "price_krw":"20,197원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide09.jpg",
+            "brand":"바이오더마",
+            "name":"센시비오 H2O 500ml",
+            "rate":"40%",
+            "cost_usd":"$16",
+            "price_usd":"$9.6",
+            "price_krw":"12,397원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide10.jpg",
+            "brand":"메디힐",
+            "name":"리뉴얼) 콜라겐 에센셜 마스크 30매",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$21",
+            "price_krw":"27,119원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide11.jpg",
+            "brand":"설화수",
+            "name":"자음에센셜 6종",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$91",
+            "price_krw":"117,517원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide12.jpg",
+            "brand":"피지오겔",
+            "name":"피지오겔 DMT 페이셜 크림 150ml *2",
+            "rate":"33%",
+            "cost_usd":"$47",
+            "price_usd":"$31.49",
+            "price_krw":"40,666원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide13.jpg",
+            "brand":"랑콤",
+            "name":"UV 엑스퍼트 유스 쉴드 아쿠아 젤 SPF50+ 50ml 트리오",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$188",
+            "price_krw":"242,783원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide14.jpg",
+            "brand":"메디힐",
+            "name":"리뉴얼) 마데카소사이드 에센셜 마스크 30매",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$21",
+            "price_krw":"27,119원"
+        },
+        {
+            "catagory":["전체","스킨케어","관심","타임세일","특가"],
+            "url":"./assets/images/popul_skin_slide15.jpg",
+            "brand":"시세이도",
+            "name":"ANESSA PERFECT UV SUNSCREEN SKINCARE MILK",
+            "rate":"",
+            "cost_usd":"",
+            "price_usd":"$35",
+            "price_krw":"45,199원"
+        }
+    ]
+}

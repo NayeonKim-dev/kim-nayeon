@@ -1,0 +1,327 @@
+@import './reset.css';
+@import './common.css';
+@import './fonts.css';
+
+
+/* header ---------------------------------------- */
+.header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 50;
+    background: #fff;
+}
+
+.header .hd-top {
+    position: relative;
+    z-index: 31;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 58px;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 0 20px 10px 20px;
+}
+
+.header .hd-top .logo-area {
+    position: relative;
+}
+
+.header .hd-top .logo-area::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -28px;
+    transform: translateY(-50%);
+    width: 19px;
+    height: 19px;
+    background: url('../images/hd_logo_arrow.png') 0 0 no-repeat;
+    background-size: 100% auto;
+}
+
+.header .logo-area .logo {
+    width: 64px;
+    height: 28px;
+    background: url(../images/hd_logo.png) no-repeat center/100%;
+}
+
+.header .util-list {
+    display: flex;
+    gap: 20px;
+    padding-bottom: 3px;
+}
+
+.header .util-list .util-item {
+    width: 20px;
+    height: 20px;
+}
+
+.header .util-item.search {
+    background: url(../images/hd_search.png) no-repeat center/100%;
+}
+
+.header .util-item.cart {
+    background: url(../images/hd_cart.png) no-repeat center/100%;
+
+}
+
+.header .gnb .gnb-list {
+    display: flex;
+    gap: 25px;
+    padding: 7px 20px 17px 20px;
+    font-size: 15px;
+}
+
+.header .gnb-list .gnb-item a {
+    line-height: 20px;
+}
+
+/* footer ---------------------------------------- */
+.footer {
+    box-sizing: border-box;
+    padding: 0 15px 50px;
+    background: #fafafa;
+    margin-top: 25px;
+    padding-bottom: calc(env(safe-area-inset-bottom) - -60px);
+}
+
+.footer .util-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 -15px;
+    padding: 10px 15px;
+    background: #f5f5f5;
+}
+
+.footer .util-area .auth-box a {
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    padding: 10px 15px;
+}
+
+.footer .util-area .auth-box a:first-child {
+    padding: 10px 15px 10px 0;
+}
+
+.footer .util-area .auth-box a+a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 9px;
+    background: #e0e0e0;
+}
+
+.footer .util-area .exchange {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer .info-area {
+    padding: 7px 0 0;
+}
+
+.footer .bis-box .title {
+    position: relative;
+    display: inline-block;
+    padding: 10px 13px 10px 0;
+    font-size: 13px;
+    color: #666;
+}
+
+.footer .bis-box .title::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: -3px;
+    transform: translateY(-50%) rotate(-180deg);
+    width: 8px;
+    height: 6px;
+    background: url('../images/ft_ic_arrow.png')no-repeat 0 0/8px auto;
+}
+
+.footer .bis-box .title.on::before {
+    transform: translateY(-50%) rotate(0deg);
+}
+
+.footer .bis-box address {
+    display: none;
+    padding-bottom: 7px;
+}
+
+.footer .bis-box address.on {
+    display: block;
+}
+
+.footer .bis-box dl {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.footer .bis-box dt {
+    width: 24%;
+    padding: 5px 0;
+    font-size: 10px;
+    color: #666;
+}
+
+.footer .bis-box dd {
+    width: 76%;
+    padding: 5px 0;
+    font-size: 10px;
+    color: #666;
+}
+
+.footer .bis-box dd.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footer .bis-box dd a {
+    position: relative;
+    margin-left: 5px;
+    color: #666;
+}
+
+.footer .bis-box dd.contact a {
+    margin: 0;
+}
+
+.footer .info-area .lang-area {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+
+.footer .lang-area .title {
+    padding: 10px 0;
+    width: 20%;
+    color: #666;
+}
+
+.footer .lang-area .lang-list {
+    display: flex;
+}
+
+.footer .lang-area .lang-item a {
+    display: block;
+    position: relative;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px 15px;
+    color: #666;
+
+}
+
+.footer .lang-area li+li a:after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+    height: 10px;
+    background: #e0e0e0;
+} 
+
+.footer .info-area .term-list {
+    display: flex;
+}
+
+.footer .info-area .term-item a {
+    font-size: 10px;
+    color: #666;
+    padding: 10px 15px;
+}
+
+.footer .info-area .term-item:first-child a {
+    padding: 10px 15px 10px 0;
+    color: #222;
+    font-weight: 600;
+} 
+
+.footer .info-area .copy {
+    display: inline-block;
+    padding: 10px 0;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.footer .award-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.footer .award-list .award-item:nth-child(1) {
+    background: url(../images/footer_ic_award01.png) no-repeat center/100%;
+    width: 29px;
+    height: 20px;
+}
+
+.footer .award-list .award-item:nth-child(2) {
+    background: url(../images/footer_ic_award02.png) no-repeat center/100%;
+    width: 32px;
+    height: 20px;
+}
+
+.footer .award-list .award-item:nth-child(3) {
+    background: url(../images/footer_ic_award03.png) no-repeat center/100%;
+    width: 35px;
+    height: 23px;
+}
+
+.footer .sns-list {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer .sns-list .sns-item {
+    position: relative;
+    padding: 10px;
+}
+
+.footer .sns-list .sns-item a {
+    display: block;
+    width: 20px;
+    height: 20px;
+}
+
+.footer .sns-list .sns-item a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 20px;
+    height: 20px;
+    background: url(../images/footer_sns_sprite.png) no-repeat center/100%;
+}
+
+.footer .sns-list .sns-item a.insta::before {
+    background-position: 0 bottom;
+}
+
+.footer .sns-list .sns-item a.youtube::before {
+       background-position: 0 -25px;
+}
+
+.footer .sns-list .sns-item a.facebook::before {
+       background-position: 0 top;
+}

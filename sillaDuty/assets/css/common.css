@@ -1,0 +1,406 @@
+html.no-scroll {
+    overflow: hidden;
+}
+
+.wrapper {
+    overflow: hidden;
+}
+
+section:not(.sc-visual, .sc-login) {
+    margin-top: 60px;
+}
+
+.blind {
+    position: absolute;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    clip: rect(0,0,0,0);
+}
+
+.layout-inner {
+    padding: 0 20px;
+}
+
+.headline {
+    line-height: 24px;
+    font-weight: bold;
+    word-break: break-word;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.tab-list {
+    display: flex;
+    gap: 30px;
+}
+
+.tab-list .tab-item {
+    position: relative;
+    line-height: 45px;
+}
+
+.tab-list .tab-item.on {
+    color: #cb463b;
+    font-weight: bold;
+}
+
+.tab-list .tab-item:not(:first-child):before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 50%;
+    left: -17px;
+    transform: translateY(-50%);
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    background: #ccc;
+}
+
+/* 상품 슬라이드 사진 효과 -----------------------------*/
+.swiper-slide .img-box {
+    position: relative;
+}
+
+.swiper-slide .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide .img-box::after {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.03);
+}
+
+/* 상품 슬라이드 설명 ------------------------------ */
+.desc-box {
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.desc-box .title {
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.desc-box .desc {
+    display: block;
+    margin-top: 5px;
+    font-size: 13px;
+    line-height: 1.3;
+    color: #666;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.price-box {
+    margin-top: 12px;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+}
+
+.price-box .sale-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.price-box .sale {
+    display: block;
+    font-family: 'ManropeB';
+    font-size: 14px;
+    color: #de3831;
+}
+
+.price-box .sale i {
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'ManropeR';
+    text-decoration: line-through;
+    color: #999;
+}
+
+.price-box .price {
+    font-family: 'ManropeB';
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.price-box .price i {
+    margin-left: 5px;
+    font-size: 12px;
+    font-family: 'ManropeR';
+    color: #999;
+}
+
+/* newbd, focus 공통 설정 */
+.focus-swiper .swiper-wrapper .swiper-slide, 
+.topdown-swiper .swiper-wrapper .swiper-slide {
+    width: fit-content;
+}
+
+.focus-swiper .main-area .img-box,
+.topdown-swiper .main-area .img-box {
+    position: relative;
+    width: 70.67vw;
+    border-radius: 2.67vw;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.focus-swiper .main-area .img-box img,
+.topdown-swiper .main-area .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.focus-swiper .main-area .img-box .title, 
+.topdown-swiper .main-area .img-box .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 15px;
+    border-radius: 0 10px 0 0;
+    background: rgba(35,35,35,0.8);
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 35px;
+}
+
+.focus-swiper .main-area .text-box,
+.topdown-swiper .main-area .text-box {
+    width: 70.67vw;
+    height: 44px;
+    font-size: 15px;
+    line-height: 24px;
+    word-break: break-word;
+    color: #222;
+    margin-bottom: 17px;
+}
+
+.focus-swiper .prodt-area,
+.topdown-swiper .prodt-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.focus-swiper .prodt-area a,
+.topdown-swiper .prodt-area a {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.focus-swiper .prodt-area .img-box,
+.topdown-swiper .prodt-area .img-box {
+    position: relative;
+    width: 26.7vw;
+    height: 26.7vw;
+    border-radius: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    padding: 2.8vw;
+}
+
+.focus-swiper .prodt-area .img-box::before,
+.topdown-swiper .prodt-area .img-box::before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.03);
+}
+
+.focus-swiper .prodt-area .desc-box .desc,
+.topdown-swiper .prodt-area .desc-box .desc {
+    color: #000;
+}
+
+.focus-swiper .pagination,
+.topdown-swiper .pagination {
+    display: flex;
+    margin-top: 30px;
+    height: 1px;
+    background: #e8e8e8;
+}
+
+.focus-swiper .pagination span.swiper-pagination-bullet,
+.topdown-swiper .pagination span.swiper-pagination-bullet {
+    flex: 1;
+    position: relative;
+    border-radius: 0;
+    height: 1px;
+    margin: 0;
+}
+
+.focus-swiper .pagination 
+span.swiper-pagination-bullet-active,
+.topdown-swiper .pagination 
+span.swiper-pagination-bullet-active {
+    background: #222;
+}
+
+/* popul, only 공통 슬라이드 */
+.list-swiper .swiper-wrapper {
+    margin: 0;
+}
+
+.list-swiper .swiper-wrapper .swiper-slide {
+    height: calc((100% - 20px) / 3);
+    width: 70.67vw;
+}
+
+.list-swiper .swiper-wrapper .swiper-slide a {
+    display: flex;
+    align-items: center;
+}
+
+.list-swiper .swiper-slide .img-area {
+    position: relative;
+    width: 26.7vw;
+    height: 26.7vw;
+    margin-right: 20px;
+}
+
+.list-swiper .swiper-slide .img-box {
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 61.1vw;
+    object-fit: contain;
+    vertical-align: middle; 
+}
+
+.list-swiper .swiper-slide .ranking {
+    z-index: 13;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 19px;
+    color: #fff;
+    font-family: 'ManropeBold';
+    font-size: 12px;
+}
+
+.list-swiper .swiper-slide .ranking::after {
+    z-index: -1;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    background: url(../images/popul_label.png)no-repeat 0 0/100% auto;
+}
+
+.list-swiper .swiper-slide:first-child .ranking::after {
+    background-position: 0 -25px;
+}
+
+.list-swiper .swiper-slide .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.list-swiper .swiper-slide .flex-area {
+    display: flex;
+    flex-direction: column;
+}
+
+/* benefit, spon 공통 슬라이더 -------------------------- */
+.progress-swiper .swiper-wrapper {
+    display: flex;
+}
+
+.progress-swiper .swiper-slide .img-box {
+    overflow: hidden;
+    width: 100%;
+    height: 46.7vw;
+    border-radius: 10px;
+}
+
+.progress-swiper .swiper-slide .img-box img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+    object-fit: cover;
+}
+
+.progress-swiper .swiper-slide .text-box {
+    margin-top: 11px;
+}
+
+.progress-swiper .swiper-slide .text-box .title {
+    line-height: 1.4;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.progress-swiper .swiper-slide .text-box .desc {
+    margin-top: 3px;
+    line-height: 1.3;
+    font-size: 13px;
+    color: #666;
+}
+
+.progress-swiper .pagination {
+    display: flex;
+    margin-top: 15px;
+    height: 1px;
+    background: #e8e8e8;
+}
+
+.progress-swiper .pagination span.swiper-pagination-bullet {
+    flex: 1;
+    position: relative;
+    border-radius: 0;
+    height: 1px;
+    margin: 0;
+}
+
+.progress-swiper .pagination 
+span.swiper-pagination-bullet-active {
+    background: #222;
+}
+
+
+/* 더보기 링크 -------------------------------- */
+.more-link {
+    position: relative;
+    padding: 6px 30px 5px 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+}
+
+.more-link:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 10px;
+    height: 10px;
+    background: url(../images/more_arrow.png)no-repeat 0 0/10px auto;
+}
