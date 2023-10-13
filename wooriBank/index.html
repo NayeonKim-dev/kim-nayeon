@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>우리은행</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/images/ic_favicon.png" type="image/x-icon">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/layout.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.css">
+    <!-- js -->
+    <script src="./assets/js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.4.1/swiper-bundle.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="layout-inner">
+                <h1 class="logo"><a href="#none"><span class="blind">우리은행</span></a></h1>
+                <div class="auth-area">
+                    <ul class="auth-list">
+                        <li class="auth-item">
+                            <a href="#none" class="login">로그인</a>
+                            <div class="sub-inner">
+                                <ul class="sub-list sublog">
+                                    <li class="sub-item"><a href="#none">개인</a></li>
+                                    <li class="sub-item"><a href="#none">기업</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="auth-item">
+                            <a href="#none" class="auth">인증센터</a>
+                            <div class="sub-inner">
+                                <ul class="sub-list subaut">
+                                    <li class="sub-item"><a href="#none">개인</a></li>
+                                    <li class="sub-item"><a href="#none">기업</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="gnb">
+                    <ul class="gnb-list">
+                        <li class="gnb-item">
+                            <a href="#none">개인</a>
+                            <div class="sub-area">
+                                <strong><a href="">개인뱅킹</a></strong>
+                                <ul class="sub-list">
+                                    <li class="sub-item"><a href="#none">조회</a></li>
+                                    <li class="sub-item"><a href="#none">이체</a></li>
+                                    <li class="sub-item"><a href="#none">오픈뱅킹</a></li>
+                                    <li class="sub-item"><a href="#none">공과금</a></li>
+                                    <li class="sub-item"><a href="#none">예금/신탁</a></li>
+                                    <li class="sub-item"><a href="#none">펀드</a></li>
+                                    <li class="sub-item"><a href="#none">보험</a></li>
+                                    <li class="sub-item"><a href="#none">대출</a></li>
+                                    <li class="sub-item"><a href="#none">외환/골드</a></li>
+                                    <li class="sub-item"><a href="#none">퇴직연금</a></li>
+                                    <li class="sub-item"><a href="#none">뱅킹관리</a></li>
+                                    <li class="sub-item"><a href="#none">ISA</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#none">기업</a>
+                            <div class="sub-area">
+                                <strong><a href="">기업뱅킹</a></strong>
+                                <ul class="sub-list">
+                                    <li class="sub-item"><a href="#none">조회</a></li>
+                                    <li class="sub-item"><a href="#none">이체</a></li>
+                                    <li class="sub-item"><a href="#none">공과금</a></li>
+                                    <li class="sub-item"><a href="#none">전자결제</a></li>
+                                    <li class="sub-item"><a href="#none">수표어음</a></li>
+                                    <li class="sub-item"><a href="#none">자금관리</a></li>
+                                    <li class="sub-item"><a href="#none">예금/신탁</a></li>
+                                    <li class="sub-item"><a href="#none">대출</a></li>
+                                    <li class="sub-item"><a href="#none">펀드/보험</a></li>
+                                    <li class="sub-item"><a href="#none">외환</a></li>
+                                    <li class="sub-item"><a href="#none">퇴직연금</a></li>
+                                    <li class="sub-item"><a href="#none">뱅킹관리</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#none">마이데이터</a>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#none">자산관리</a>
+                            <div class="sub-area space">
+                                <strong><a href="">자산관리</a></strong>
+                                <ul class="sub-list">
+                                    <li class="sub-item"><a href="#none">MY자산 진단</a></li>
+                                    <li class="sub-item"><a href="#none">펀드 포트폴리오</a></li>
+                                    <li class="sub-item"><a href="#none">퇴직연금 포트폴리오</a></li>
+                                    <li class="sub-item"><a href="#none">WON챌린지</a></li>
+                                    <li class="sub-item"><a href="#none">미래설계</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#none">금융상품</a>
+                            <div class="sub-area space">
+                                <strong><a href="">금융상품</a></strong>
+                                <ul class="sub-list">
+                                    <li class="sub-item"><a href="#none">추천상품</a></li>
+                                    <li class="sub-item"><a href="#none">예금</a></li>
+                                    <li class="sub-item"><a href="#none">펀드</a></li>
+                                    <li class="sub-item"><a href="#none">대출</a></li>
+                                    <li class="sub-item"><a href="#none">외환</a></li>
+                                    <li class="sub-item"><a href="#none">골드</a></li>
+                                    <li class="sub-item"><a href="#none">신탁</a></li>
+                                    <li class="sub-item"><a href="#none">보험</a></li>
+                                    <li class="sub-item"><a href="#none">퇴직연금</a></li>
+                                    <li class="sub-item"><a href="#none">ISA</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#none">카드</a>
+                            <div class="sub-area">
+                                <strong><a href="">카드</a></strong>
+                                <ul class="sub-list">
+                                    <li class="sub-item"><a href="#none">우리카드</a></li>
+                                    <li class="sub-item"><a href="#none">롯데카드</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="gnb-item">
+                            <a href="#none">제휴제안</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="util-area">
+                    <ul class="util-list">
+                        <li class="util-item"><a href="#none">전체메뉴</a></li>
+                        <li class="util-item">
+                            <span>GLOBAL</span>
+                            <div class="lang-box">
+                                <strong>LANGUAGE</strong>
+                                <ul class="lang-list">
+                                    <li class="lang-item"><a href="#none" class="en">English</a></li>
+                                    <li class="lang-item"><a href="#none" class="cn">Chinese (中國語 )</a></li>
+                                    <li class="lang-item"><a href="#none" class="jn">Japanese (日本語)</a></li>
+                                    <li class="lang-item"><a href="#none" class="fp">Filipino (Tagalog)</a></li>
+                                    <li class="lang-item"><a href="#none" class="vt">Vietnamese (tiếng Việt)</a></li>
+                                    <li class="lang-item"><a href="#none" class="mg">Mongolian (Монгол хэл)</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#none" class="search"><span class="blind">검색</span></a>
+                </div>
+            </div>
+        </header>
+        <main class="container">
+            <section class="sc-visual">
+                <h2 class="blind">메인 슬라이드</h2>
+                <div class="content">
+                    <div class="bg-swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide loan"></li>
+                            <li class="swiper-slide partner"></li>
+                            <li class="swiper-slide data"></li>
+                            <li class="swiper-slide banking"></li>
+                        </ul>
+                    </div>
+                    <div class="vis-swiper layout-inner">
+                        <ul class="swiper-wrapper">
+                            <li class="swiper-slide"><a href="#none"><img src="./assets/images/vis_main01.png" alt=""></a></li>
+                            <li class="swiper-slide"><a href="#none"><img src="./assets/images/vis_main02.png" alt=""></a></li>
+                            <li class="swiper-slide"><a href="#none"><img src="./assets/images/vis_main03.jpg" alt=""></a></li>
+                            <li class="swiper-slide"><a href="#none"><img src="./assets/images/vis_main04.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="control">
+                        <div class="pagination">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn auto-play" aria-label="멈춤버튼"></button>
+                            <button class="btn prev" aria-label="이전"></button>
+                            <button class="btn next" aria-label="다음"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-finan-info">
+                <h2 class="blind">금융정보 빠른메뉴</h2>
+                <div class="quick-area">
+                    <ul class="quick-list">
+                        <li class="quick-item another"><a href="#none">다른금융<br>정보조회</a></li>
+                        <li class="quick-item"><a href="#none">조회</a></li>
+                        <li class="quick-item"><a href="#none">이체</a></li>
+                        <li class="quick-item"><a href="#none">환율</a></li>
+                        <li class="quick-item quick"><a href="#none">빠른메뉴</a></li>
+                    </ul>
+                </div>
+                <div class="protect-area">
+                    <ul class="prot-list">
+                        <li class="prot-item"><a href="#none">금융 소비자 보호</a></li>
+                        <li class="prot-item"><a href="#none">보안뉴스</a></li>
+                        <li class="prot-item"><a href="#none">상품/약관 공시</a></li>
+                    </ul>
+                </div>
+            </section>
+            <div class="layout-inner">
+                <div class="finan-flex">
+                    <section class="sc-finan-inst">
+                        <h2 class="headline"><a href="none">금융상품</a></h2>
+                        <ul class="inst-list">
+                            <li class="inst-item"><a href="#none" class="ic-deposit"><span>예금</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-loans"><span>대출</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-funding"><span>펀드</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-exchange"><span>외환</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-trust"><span>신탁</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-pension"><span>퇴직연금</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-insurance"><span>보험</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-isa"><span>ISA</span></a></li>
+                        </ul>
+                    </section>
+                    <section class="sc-finan-inst card">
+                        <h2 class="headline"><a href="none">카드</a></h2>
+                        <ul class="inst-list">
+                            <li class="inst-item"><a href="#none" class="ic-request"><span class="bold">카드신청</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-card"><span class="bold">나의카드</span></a></li>
+                            <li class="inst-item"><a href="#none" class="ic-event"><span class="bold">이벤트</span></a></li>
+                        </ul>
+                    </section>
+                </div>
+                <section class="sc-service">
+                    <h2 class="headline">서비스</h2>
+                    <ul class="serv-list">
+                        <li class="serv-item">
+                            <a href="#none">
+                                <img src="./assets/images/serv_wori.png" alt="우리WON뱅킹 이미지">
+                                <h3 class="title">우리WON뱅킹</h3>
+                                <p class="desc">
+                                    새 시대의 금융을 켜다,<br>
+                                    우리은행 대표 모바일뱅킹 APP
+                                </p>
+                            </a>
+                        </li>
+                        <li class="serv-item">
+                            <a href="#none">
+                                <img src="./assets/images/serv_mydater.png" alt="마이데이터 이미지">
+                                <h3 class="title">마이데이터</h3>
+                                <p class="desc">
+                                    나의 데이터가 가치가 되는<br>
+                                    새로운 경험을 체험해 보세요
+                                </p>
+                            </a>
+                        </li>
+                        <li class="serv-item">
+                            <a href="#none">
+                                <img src="./assets/images/serv_smart.png" alt="스마트간편신규 이미지">
+                                <h3 class="title">스마트간편신규</h3>
+                                <p class="desc">
+                                    직원에게 추천받으신 상품을<br>
+                                    간편하게 가입하세요
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+            <div class="board-bg">
+                <div class="layout-inner">
+                        <div class="board-flex">
+                            <section class="sc-board">
+                                <h2 class="headline">새소식</h2>
+                                <ul class="board-list">
+                                    <li class="board-item">
+                                        <a href="#none">
+                                            <p class="desc">[채용] 2023년 상반기 우리은행 신입행원...</p>
+                                            <em class="date">2023.05.18</em>
+                                        </a>
+                                    </li>
+                                    <li class="board-item">
+                                        <a href="#none">
+                                        <p class="desc">[공지] 2023 순천만 국제정원박람회 기념...</p>
+                                        <em class="date">2023.05.12</em>
+                                        </a>
+                                    </li>
+                                    <li class="board-item">
+                                        <a href="#none">
+                                            <p class="desc">[공지] 모바일 · 인터넷뱅킹 타행이체 수수...</p>
+                                            <em class="date">2023.02.08</em>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="#none" class="more-link">더보기</a>
+                                </section>
+                            <section class="sc-board">
+                            <h2 class="headline">이벤트</h2>
+                            <ul class="board-list">
+                                <li class="board-item">
+                                    <a href="#none">
+                                        <p class="desc">IRP 입금미션 하고 푸짐한 선물 받자!</p>
+                                    </a>
+                                </li>
+                                <li class="board-item">
+                                    <a href="#none">
+                                        <p class="desc">우리은행 첫 적금 만들고 1만원 받으세요!</p>
+                                    </a>
+                                </li>
+                                <li class="board-item">
+                                    <a href="#none">
+                                        <div class="desc">직장인을 위한 특별한 혜택! 우리 직장인셀럽</div>
+                                    </a>
+                                </li>
+                            </ul>
+                            <a href="#none" class="more-link">더보기</a>
+                            </section>
+                        </div>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="layout-inner">
+                <div class="info-area">
+                    <h2 class="logo"><a href="none"><span class="blind">우리은행</span></a></h2>
+                    <div class="info-group">
+                        <div class="content">
+                            <a href="#none">은행소개</a>
+                            <a href="#none">영업점안내</a>
+                            <a href="#none">고객광장</a>
+                            <a href="#none" class="bold">개인정보처리방침</a>
+                            <a href="#none" class="bold">신용정보활용체제</a>
+                            <a href="#none" class="off">개인신용정보관리보호</a>
+                            <a href="#none">사고신고</a>
+                            <a href="#none">전자민원접수</a>
+                            <a href="#none">보호금융상품등록부</a>
+                            <a href="#none">상품공시실</a>
+                            <a href="#none">보안센터</a>
+                            <a href="#none" class="off">웹접근성 이용안내</a>
+                        </div>
+                        <p class="copy">
+                            COPYRIGHTS WOORI BANK. ALL RIGHTS RESERVED.
+                        </p>
+                    </div>
+                    <div class="mark-group">
+                        <a href="#none" class="mark-item"><img src="./assets/images/ft_award01.png" class="ic-web" alt="국가공인 웹 접근성 품질인증마크2019 "></a>
+                        <a href="#none" class="mark-item"><img src="./assets/images/ft_award02.gif" class="ic-cus" alt="고객감동경영대상 종합대상 12년 연속 수상"></a>
+                        <a href="#none" class="mark-item"><img src="./assets/images/ft_award03.jpg" class="ic-ban" alt="The Banker Awards 2020 우리은행 3관왕 수상"></a>
+                    </div>
+                </div>
+                <div class="nav-area">
+                    <ul class="nav-list">
+                        <li class="nav-item represent">
+                            <a href="#none">대표 <span class="bold">1588-5000</span></a>
+                        </li>
+                        <li class="nav-item service">
+                            <a href="#none"><span>기타서비스</span></a>
+                        </li>
+                        <li class="nav-item lang">
+                            <a href="#none"><span>LANGUAGE</span></a>
+                        </li>
+                        <li class="nav-item family">
+                            <a href="#none" class="off"><span>패밀리사이트</span></a>
+                        </li>
+                    </ul>
+                    <ul class="sns-list">
+                        <li class="sns-item"><a href="#none" class="ic-facebook"></a></li>
+                        <li class="sns-item"><a href="#none" class="ic-insta"></a></li>
+                        <li class="sns-item"><a href="#none" class="ic-navpost"></a></li>
+                        <li class="sns-item"><a href="#none" class="ic-youtube"></a></li>
+                        <li class="sns-item"><a href="#none" class="ic-navtv"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
